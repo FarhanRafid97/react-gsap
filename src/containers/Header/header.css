@@ -1,0 +1,180 @@
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.block {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.block1 {
+    position: relative;
+    flex: 1;
+    width: 33.33vw;
+    height: 100%;
+    background-color: black;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.block2 {
+    position: relative;
+    flex: 1;
+
+    height: 100%;
+    background-color: black;
+    top: 0;
+
+    z-index: 3;
+
+}
+
+
+.block3 {
+    position: relative;
+    flex: 1;
+    height: 100%;
+    height: 100%;
+    background-color: black;
+    top: 0;
+    z-index: 3;
+}
+
+.welcome {
+    position: relative;
+    display: flex;
+    flex: 1;
+
+
+    align-items: center;
+    color: white;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.text h3 {
+    position: relative;
+    font-size: 28px;
+    z-index: 99;
+}
+
+.text p {
+    z-index: 99;
+    font-size: 18px;
+}
+
+.text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-left: 100px;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.button {
+    position: relative;
+    padding: 0.5rem 2rem;
+    z-index: 2;
+    width: 200px;
+}
+
+.background img {
+    width: 300px;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+
+}
+
+
+.foto {
+    position: relative;
+    flex: 1;
+    display: flex;
+    height: 100%;
+    background-color: violet;
+
+}
+
+.photo1 {
+    flex: 1;
+    background-image: url('../../img/photo1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: 1px solid white;
+}
+
+.photo2 {
+    flex: 1;
+    background-image: url('../../img/photo2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: 1px solid white;
+}
+
+.photo3 {
+    flex: 1;
+    background-image: url('../../img/photo3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.block-foto {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.block4 {
+    position: relative;
+    flex: 1;
+    width: 33.33vw;
+    height: 100%;
+    background-color: black;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.block5 {
+    position: relative;
+    flex: 1;
+
+    height: 100%;
+    background-color: black;
+    top: 0;
+
+    z-index: 3;
+
+}
+
+
+.block6 {
+    position: relative;
+    flex: 1;
+    height: 100%;
+    height: 100%;
+    background-color: black;
+    top: 0;
+    z-index: 3;
+}
