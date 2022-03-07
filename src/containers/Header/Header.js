@@ -13,14 +13,14 @@ import saly43 from '../../img/Saly-5.png'
 const Header = () => {
 
   useEffect(() => {
-    gsap.to('.block1', { duration: 0.7, scaleY:0,transformOrigin: "100% bottom",delay:0});
-    gsap.to('.block2', { duration: 0.7, scaleY:0,transformOrigin: "100% top",delay:0.6});
-    gsap.to('.block3', { duration: 0.7, scaleX:0,transformOrigin: "100% right",delay:1.2});
+    gsap.to('.block1', { duration: 0.7, scaleY:0,transformOrigin: "100% bottom",delay:0.3});
+    gsap.to('.block2', { duration: 0.7, scaleY:0,transformOrigin: "100% top",delay:0.9});
+    gsap.to('.block3', { duration: 0.7, scaleX:0,transformOrigin: "100% right",delay:1.5});
     gsap.to('.block',{duration: 2,display:'none'})
-    gsap.to('.block4', { duration: 0.7, scaleX:0,transformOrigin: "100% left",delay:1.7});
-    gsap.to('.block5', { duration: 0.7, scaleY:0,transformOrigin: "100% top",delay:2.4});
-    gsap.to('.block6', { duration: 0.7, scaleX:0,transformOrigin: "100% right",delay:3.1});
-    gsap.to('.block-foto',{duration: 3.7,display:'none'})
+    gsap.to('.block4', { duration: 0.7, scaleX:0,transformOrigin: "100% left",delay:2.1});
+    gsap.to('.block5', { duration: 0.7, scaleY:0,transformOrigin: "100% top",delay:2.7});
+    gsap.to('.block6', { duration: 0.7, scaleX:0,transformOrigin: "100% right",delay:3.4});
+    gsap.to('.block-foto',{duration: 4,display:'none'})
     gsap.to('.welcome',{duration: 1.5,color:'black',delay:0.2})
    
   });
